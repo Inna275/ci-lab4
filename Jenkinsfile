@@ -1,10 +1,6 @@
 pipeline {
 
-    agent {
-        dockerContainer {
-            image 'gcc:latest'
-        }
-    }
+    agent any
 
     stages {
 
